@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body
+{
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px ;
+    background: #f9f9f9;
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(221, 136, 79, 0.1) ;
+    border-left: 50px solid #fd7cad;
+    border-right: 50px solid #fd7cad;
+}
+.container .top
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding-bottom: 0%;
+}
+.container .top .imgBx
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container .top .imgBx .box
+{
+    position: relative;
+    width: 80%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+.container .top .imgBx .box img
+{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .top .profileText
+{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.container .top .profileText h2
+{
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+    font-weight: 600;
+    color: #333;
+}
+.container .contentBox
+{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0 40px 40px;
+}
+.container .contentBox h3
+{
+    border-left:4px solid #fd7cad ;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.6em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.container .contentBox ul
+{
+  position: relative;  
+  margin: 10px 0;
+}
+.container .contentBox ul li
+{
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1em;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+}
+.container .contentBox ul.education li
+{
+    flex-direction: column;
+    margin: 25px 0;
+}
+h5
+{
+color: #33ac65;
+}
+h4
+{
+color: #fd7cad;
+font-weight: 400;
+margin: 5px 0;
+}
+h6
+{
+color: rgb(52, 51, 53);
+font-weight: 300;
+font-size: 1em;
+}
+p
+{
+    font-style: 300;
+     line-height: 1em;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.4em;
+    margin-bottom: 20px;
+    
+}
+.rightSide
+{
+  padding-left: 150px;  
+}
